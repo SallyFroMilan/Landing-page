@@ -1,5 +1,5 @@
 # Landing-page
-<p> Create an entire <strong>web page</strong> from a design provided by <em>The Odin Project</em>, getting the project <em>as close as possible</em> to the <strong>design</strong>. </p> 
+<p> <em>Create</em> an entire <strong>web page</strong> from a design provided by <em>The Odin Project</em>, getting the project <em>as close as possible</em> to the <strong>design</strong>. </p> 
 <p>The assignment point is:</p>
 
 - create <strong>something from scratch</strong>
