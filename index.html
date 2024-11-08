@@ -1,107 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>This website is awesome</title>
+    <title>Landing Page</title>
+</head>
 
-    <style>
-    p.b {
-        word-break: break-word;
-        width: 450px;
-    }
-    p.c {
-        word-break: normal;
-        width: 450px;
-    }
-    p.d {
-        word-break: break-word;
-        width: 180px;
-    }
-    p.e {
-        word-break: break-all;
-        width: 529px;
-    }
-    </style>
-    </head>
-    <body>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="images/yinyang.jpg" alt="Company logo" width="60" height="60">
+        </a>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
 
-        <div class="header">
-            <div class="l-links">
-                
-                    <a href="#"><img src="images/fire.jpg" width="80" height="80"></a>
-                
+        <ul>
+            <div class="maintext">La Dolce Vita Oasis & Spa
             </div>
-                <ul class="right-links">
-                    <li>Shop</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
+            <div class="secondarytext">
+                A corner of Thai paradise in the heart of London
             </div>
+            <button class="button1">Sign up</button>
+        </ul>
         
-        <div class="container">
-            <div class="left">
-                <ul>
-                <p class="b">This Buddha is awesome</p>
-                </ul>
+        <img class="buddha" src="images/buddhacolors.jpg" alt="Buddha" height="260" width="460">
+    </header>
+
+    <main>
+        <div class="infos">REGAIN YOUR WELL-BEING
+        </div>
+        <div class="treats">Treatments
+        </div>
+
+        <h2 class="thai">Thai Massage</h2>
+        <h2 class="oil">Oil Massage</h2>
+        <h2 class="foot">Foot Massage</h2>
+        <h2 class="couple">Couple Massage</h2>
+
+        <div class="flex-container">
+            <div class="box box1"><img src="images/thai.jpg" alt="woman with candles">
+                <p class="sub">Massage that gives <strong>Inner Well-Being</strong>,
+                    <strong>dissolves blockages</strong> and frees the flow of life energy
+                </p>
+            </div>
+            <div class="box box2"><img src="images/oil-massage.jpg" alt="hand with oil bottle">
+                <p class="sub2"><strong>Relaxing Massage</strong> with
+                    essential oils restores balance between <strong>body and mind</strong>
+                </p>
+            </div>
+            <div class="box box3"><img src="images/reflexology.jpg" alt="foot massage">
+                <p class="sub3"><strong>Thai Foot Massage</strong> involves massaging 
+                    the foot through manipulations.<br>
+                    Stress relieving, it helps
+                    <strong>legs circulation</strong>
+                </p>
+            </div>
+            <div class="box box4"><img src="images/couple-massage.jpg" alt="couple having massage">
+                <p class="sub4">Natural essential oils for a <strong>Relaxing Massage</strong>, 
+                    a pleasure you can <strong>share</strong> with your partner
+                </p>
             </div>
         </div>
-            <div class="hero">
-                <div class="button">
-                <button class="signup">Sign up</button>
+
+    <div class="quote-container">
+        <div class="quote">
+            <strong>"</strong>Take care of your <strong>body</strong> as well as your <strong>mind</strong>,
+            cause everything is one.<br> To achieve a true state of well-being, it is imperative that
+            mind and body are in <strong>balance</strong> with each other.<strong>"</strong>
         </div>
-        </div>
-        <div class="secondary">
-            <div class="text">
-                <ul>
-                    <p class="c">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-                </ul>
-        </div>
-    </div>
-    <div class="image-placeholder"></div>
-        <img src="images/buddha.jpg" height="200" width="500">
-
-
-
-    <div class="title">Some random information.</div>
-
-    <div class="flex-container">
-    <div class="box"></div>
-    <div class="box2"></div>
-    <div class="box3"></div>
-    <div class="box4"></div>
- </div>
-
-    <div class="text2">
-    <ul>
-        <p class="d">this is some subtext under an illustration or image</p>
-        <p class="d">this is some subtext under an illustration or image</p>
-        <p class="d">this is some subtext under an illustration or image</p>
-        <p class="d">this is some subtext under an illustration or image</p>
-    </ul>
-    </div>
-            <div class="mid-quote">
-            <div class="text3">
-                <ul>
-                    <p class="e"><em>"If a person is evil, do not cast him away. Awaken him with your words, elevate him with your works, repay his offences with your kindness. Do not cast him away; cast away his wickedness."</em></p>
-                </ul>
-                    <p class="text4"><strong><em>- Lao Tzu -</em></strong></p>
-        </div>
-    </div>
-
-        <div class="text5">
-             <h3 class="call"><strong>Call to action! It's time!</strong></h3>      
-                <p class="sign">Sign up for our product by clicking that button right over there!</p>  
+            <p class="author">Gautama Buddha</p>
         </div>
 
-            <div class="button2">
-            <button class="signup2">Sign up</button>
-        </div> 
-    
-    <div class="footer">
-                    <p>Copyright © The Odin Project 2022</p>
+        <div class="action-container">
+            <h3>Call to action! It's time!</h3>
+                <div class="action-product">Sign up for our product by clicking that button right over there!
+                </div>
+                <div class="action-button">
+                    <button>Sign up</button>
+                </div>
             </div>
-    </body>
+    </main>
+
+    <footer>
+        Copyright &copy; <em id="date"></em> The Odin Project 2024
+    </footer>
+</body>
 </html>
